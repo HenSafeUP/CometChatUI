@@ -13,6 +13,7 @@ FOUNDATION_EXPORT double CometChatUIVersionNumber;
 //! Project version string for CometChatUI.
 FOUNDATION_EXPORT const unsigned char CometChatUIVersionString[];
 
-// In this header, you should import all the public headers of your framework using statements like #import <CometChatUI/PublicHeader.h>
+// In this header, you should import all the public headers of your framework using statements like
+#import <CometChatUI/PublicHeader.h>
 
 
