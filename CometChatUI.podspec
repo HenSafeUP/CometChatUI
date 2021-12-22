@@ -14,7 +14,9 @@ Pod::Spec.new do |spec|
   spec.description  = "CocoaPods Library for CometChatUI"
   spec.homepage     = "https://github.com/HenSafeUP/CometChatUI"
   spec.license      = { :type => "MIT", :file => "LICENSE" }
-  
+  spec.ios.deployment_target = "13.0"
+  spec.swift_version = "4.2"
+
   # ――― Author Metadata  ――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
   #
   #  Specify the authors of the library, with email addresses. Email addresses
