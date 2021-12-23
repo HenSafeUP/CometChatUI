@@ -1820,7 +1820,6 @@
 			children = (
 				5A2815FD277379E400ECF3CB /* Library */,
 				5A2815E62773793400ECF3CB /* CometChatUI.h */,
-				5A281658277379E400ECF3CB /* CometChatUI.swift */,
 				5A2815E72773793400ECF3CB /* CometChatUI.docc */,
 			);
 			path = CometChatUI;
@@ -2001,6 +2000,7 @@
 			isa = PBXGroup;
 			children = (
 				5A281645277379E400ECF3CB /* Resources */,
+				5A281658277379E400ECF3CB /* CometChatUI.swift */,
 			);
 			path = "CometChat UI";
 			sourceTree = "<group>";
