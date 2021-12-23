@@ -5094,6 +5094,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 18A26D30F5CE492B450933E3 /* Pods-CometChatUI.debug.xcconfig */;
 			buildSettings = {
+				CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEFINES_MODULE = YES;
@@ -5122,6 +5123,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = D52287FEB80F1758C5657B0C /* Pods-CometChatUI.release.xcconfig */;
 			buildSettings = {
+				CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEFINES_MODULE = YES;
