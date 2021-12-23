@@ -28,7 +28,7 @@ public enum Controller : String {
 
 
 /// **CometChatUI**  is a way to launch a fully working chat application using the UI Kit. In CometChatUI all the UI Screens and UI Components working together to give the full experience of a chat application with minimal coding effort.
-@objc  class CometChatUI: UITabBarController {
+@objc public final class CometChatUI: UITabBarController {
     
     // MARK: - Declaration of Variables
     

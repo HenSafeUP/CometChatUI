@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		361953ECED14D9245DE80F24 /* Pods_CometChatUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4144793805BDF7FE63F15B6B /* Pods_CometChatUI.framework */; };
+		59F8D5D83778A841DF6AB7C4 /* libPods-CometChatUI.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1CBA92AA60A527136CADC2BB /* libPods-CometChatUI.a */; };
 		5A2815E82773793400ECF3CB /* CometChatUI.docc in Sources */ = {isa = PBXBuildFile; fileRef = 5A2815E72773793400ECF3CB /* CometChatUI.docc */; };
 		5A2815EE2773793400ECF3CB /* CometChatUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A2815E32773793400ECF3CB /* CometChatUI.framework */; };
 		5A2815F32773793400ECF3CB /* CometChatUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A2815F22773793400ECF3CB /* CometChatUITests.swift */; };
@@ -846,7 +846,7 @@
 		5A281D2027737C3A00ECF3CB /* CometChatUIExamplesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A281D1F27737C3A00ECF3CB /* CometChatUIExamplesTests.swift */; };
 		5A281D2A27737C3A00ECF3CB /* CometChatUIExamplesUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A281D2927737C3A00ECF3CB /* CometChatUIExamplesUITests.swift */; };
 		5A281D2C27737C3A00ECF3CB /* CometChatUIExamplesUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A281D2B27737C3A00ECF3CB /* CometChatUIExamplesUITestsLaunchTests.swift */; };
-		69D6DCB07A155FB8DE891DBF /* Pods_CometChatUI_CometChatUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8E0BDCFDC4FD52B87B74BB3C /* Pods_CometChatUI_CometChatUITests.framework */; };
+		66BFA87ECA888C245B9F2549 /* libPods-CometChatUI-CometChatUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C4A807EA4EF8F9CF3C06172C /* libPods-CometChatUI-CometChatUITests.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -875,7 +875,7 @@
 
 /* Begin PBXFileReference section */
 		18A26D30F5CE492B450933E3 /* Pods-CometChatUI.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CometChatUI.debug.xcconfig"; path = "Target Support Files/Pods-CometChatUI/Pods-CometChatUI.debug.xcconfig"; sourceTree = "<group>"; };
-		4144793805BDF7FE63F15B6B /* Pods_CometChatUI.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CometChatUI.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1CBA92AA60A527136CADC2BB /* libPods-CometChatUI.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-CometChatUI.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5A2815E32773793400ECF3CB /* CometChatUI.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CometChatUI.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5A2815E62773793400ECF3CB /* CometChatUI.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CometChatUI.h; sourceTree = "<group>"; };
 		5A2815E72773793400ECF3CB /* CometChatUI.docc */ = {isa = PBXFileReference; lastKnownFileType = folder.documentationcatalog; path = CometChatUI.docc; sourceTree = "<group>"; };
@@ -1733,7 +1733,7 @@
 		5A281D2927737C3A00ECF3CB /* CometChatUIExamplesUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CometChatUIExamplesUITests.swift; sourceTree = "<group>"; };
 		5A281D2B27737C3A00ECF3CB /* CometChatUIExamplesUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CometChatUIExamplesUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		5FE2B878382053BC04AD7440 /* Pods-CometChatUI-CometChatUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CometChatUI-CometChatUITests.debug.xcconfig"; path = "Target Support Files/Pods-CometChatUI-CometChatUITests/Pods-CometChatUI-CometChatUITests.debug.xcconfig"; sourceTree = "<group>"; };
-		8E0BDCFDC4FD52B87B74BB3C /* Pods_CometChatUI_CometChatUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CometChatUI_CometChatUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C4A807EA4EF8F9CF3C06172C /* libPods-CometChatUI-CometChatUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-CometChatUI-CometChatUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D01F221E25AAB555E39CCE82 /* Pods-CometChatUI-CometChatUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CometChatUI-CometChatUITests.release.xcconfig"; path = "Target Support Files/Pods-CometChatUI-CometChatUITests/Pods-CometChatUI-CometChatUITests.release.xcconfig"; sourceTree = "<group>"; };
 		D52287FEB80F1758C5657B0C /* Pods-CometChatUI.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CometChatUI.release.xcconfig"; path = "Target Support Files/Pods-CometChatUI/Pods-CometChatUI.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -1743,7 +1743,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				361953ECED14D9245DE80F24 /* Pods_CometChatUI.framework in Frameworks */,
+				59F8D5D83778A841DF6AB7C4 /* libPods-CometChatUI.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1752,7 +1752,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				5A2815EE2773793400ECF3CB /* CometChatUI.framework in Frameworks */,
-				69D6DCB07A155FB8DE891DBF /* Pods_CometChatUI_CometChatUITests.framework in Frameworks */,
+				66BFA87ECA888C245B9F2549 /* libPods-CometChatUI-CometChatUITests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1783,8 +1783,8 @@
 		49640759CE4F3D34BDCD617A /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				4144793805BDF7FE63F15B6B /* Pods_CometChatUI.framework */,
-				8E0BDCFDC4FD52B87B74BB3C /* Pods_CometChatUI_CometChatUITests.framework */,
+				1CBA92AA60A527136CADC2BB /* libPods-CometChatUI.a */,
+				C4A807EA4EF8F9CF3C06172C /* libPods-CometChatUI-CometChatUITests.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -1820,6 +1820,7 @@
 			children = (
 				5A2815FD277379E400ECF3CB /* Library */,
 				5A2815E62773793400ECF3CB /* CometChatUI.h */,
+				5A281658277379E400ECF3CB /* CometChatUI.swift */,
 				5A2815E72773793400ECF3CB /* CometChatUI.docc */,
 			);
 			path = CometChatUI;
@@ -2000,7 +2001,6 @@
 			isa = PBXGroup;
 			children = (
 				5A281645277379E400ECF3CB /* Resources */,
-				5A281658277379E400ECF3CB /* CometChatUI.swift */,
 			);
 			path = "CometChat UI";
 			sourceTree = "<group>";
