@@ -846,6 +846,7 @@
 		5A281D2027737C3A00ECF3CB /* CometChatUIExamplesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A281D1F27737C3A00ECF3CB /* CometChatUIExamplesTests.swift */; };
 		5A281D2A27737C3A00ECF3CB /* CometChatUIExamplesUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A281D2927737C3A00ECF3CB /* CometChatUIExamplesUITests.swift */; };
 		5A281D2C27737C3A00ECF3CB /* CometChatUIExamplesUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A281D2B27737C3A00ECF3CB /* CometChatUIExamplesUITestsLaunchTests.swift */; };
+		5A281D392774911800ECF3CB /* SomeFileToTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A281D382774911800ECF3CB /* SomeFileToTest.swift */; };
 		66BFA87ECA888C245B9F2549 /* libPods-CometChatUI-CometChatUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C4A807EA4EF8F9CF3C06172C /* libPods-CometChatUI-CometChatUITests.a */; };
 /* End PBXBuildFile section */
 
@@ -1732,6 +1733,7 @@
 		5A281D2527737C3A00ECF3CB /* CometChatUIExamplesUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CometChatUIExamplesUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5A281D2927737C3A00ECF3CB /* CometChatUIExamplesUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CometChatUIExamplesUITests.swift; sourceTree = "<group>"; };
 		5A281D2B27737C3A00ECF3CB /* CometChatUIExamplesUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CometChatUIExamplesUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		5A281D382774911800ECF3CB /* SomeFileToTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SomeFileToTest.swift; sourceTree = "<group>"; };
 		5FE2B878382053BC04AD7440 /* Pods-CometChatUI-CometChatUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CometChatUI-CometChatUITests.debug.xcconfig"; path = "Target Support Files/Pods-CometChatUI-CometChatUITests/Pods-CometChatUI-CometChatUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		C4A807EA4EF8F9CF3C06172C /* libPods-CometChatUI-CometChatUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-CometChatUI-CometChatUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D01F221E25AAB555E39CCE82 /* Pods-CometChatUI-CometChatUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CometChatUI-CometChatUITests.release.xcconfig"; path = "Target Support Files/Pods-CometChatUI-CometChatUITests/Pods-CometChatUI-CometChatUITests.release.xcconfig"; sourceTree = "<group>"; };
@@ -1821,6 +1823,7 @@
 				5A2815FD277379E400ECF3CB /* Library */,
 				5A2815E62773793400ECF3CB /* CometChatUI.h */,
 				5A2815E72773793400ECF3CB /* CometChatUI.docc */,
+				5A281D382774911800ECF3CB /* SomeFileToTest.swift */,
 			);
 			path = CometChatUI;
 			sourceTree = "<group>";
@@ -4788,6 +4791,7 @@
 				5A281A41277379E500ECF3CB /* CometChatMessageDateHeader.swift in Sources */,
 				5A281A21277379E500ECF3CB /* CometChatSenderAudioMessageBubble.swift in Sources */,
 				5A281B14277379E600ECF3CB /* CometChatLanguageBundle.swift in Sources */,
+				5A281D392774911800ECF3CB /* SomeFileToTest.swift in Sources */,
 				5A281B5D277379E600ECF3CB /* CometChatConversationListItem.swift in Sources */,
 				5A281B7C277379E600ECF3CB /* MarginAdjustable+Extensions.swift in Sources */,
 				5A281B11277379E600ECF3CB /* CometChatSoundManager.swift in Sources */,
