@@ -12,7 +12,7 @@ import CometChatPro
 
 /*  ----------------------------------------------------------------------------------------- */
 
-public class CometChatBannedMembers: UIViewController {
+open class CometChatBannedMembers: UIViewController {
     
     // MARK: - Declaration of Variables
     

@@ -7,6 +7,6 @@
 
 import Foundation
 
-public class SomeFileToTest {
+open class SomeFileToTest {
     
 }

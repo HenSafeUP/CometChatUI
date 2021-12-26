@@ -11,7 +11,7 @@ import CometChatPro
 
 /*  ----------------------------------------------------------------------------------------- */
 
-public class CometChatUserProfile: UIViewController {
+open class CometChatUserProfile: UIViewController {
     
     // MARK: - Declaration of Variables
     

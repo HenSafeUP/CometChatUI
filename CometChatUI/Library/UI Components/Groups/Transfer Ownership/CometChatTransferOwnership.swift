@@ -13,7 +13,7 @@ import CometChatPro
 
 /*  ----------------------------------------------------------------------------------------- */
 
-public class CometChatTransferOwnership: UIViewController {
+open class CometChatTransferOwnership: UIViewController {
     
     // MARK: - Declaration of Variables
     var groupMembers:[GroupMember] = [GroupMember]()

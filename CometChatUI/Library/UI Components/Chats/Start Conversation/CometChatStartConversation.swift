@@ -36,7 +36,7 @@ public protocol StartConversationDelegate: AnyObject {
 
 /*  ----------------------------------------------------------------------------------------- */
 
-public class CometChatStartConversation: UIViewController {
+open class CometChatStartConversation: UIViewController {
     
     
     // MARK: - Declaration of Variables

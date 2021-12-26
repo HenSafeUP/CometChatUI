@@ -34,7 +34,7 @@ public protocol ForwardMessageListDelegate : AnyObject{
 
 /*  ----------------------------------------------------------------------------------------- */
 
-public class CometChatForwardMessageList: UIViewController {
+open class CometChatForwardMessageList: UIViewController {
     
     // MARK: - Declaration of Variables
     

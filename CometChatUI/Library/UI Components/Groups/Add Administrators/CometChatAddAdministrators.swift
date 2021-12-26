@@ -17,7 +17,7 @@ enum Mode {
 
 /*  ----------------------------------------------------------------------------------------- */
 
-public class CometChatAddAdministrators: UIViewController {
+open class CometChatAddAdministrators: UIViewController {
     
     // MARK: - Declaration of Variables
     

@@ -11,7 +11,7 @@ import UIKit
 @available(*, deprecated, message: "Class renamed to `EdgeAnimation` to reflect new ability to do leading and trailing animations.")
 public typealias TopBottomAnimation = EdgeAnimation
 
-public class EdgeAnimation: NSObject, Animator {
+open class EdgeAnimation: NSObject, Animator {
 
     public enum Style {
         case top

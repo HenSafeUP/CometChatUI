@@ -12,7 +12,7 @@ import CometChatPro
 
 /*  ----------------------------------------------------------------------------------------- */
 
-@objc public class CometChatCallManager : NSObject {
+@objc open class CometChatCallManager : NSObject {
     
      // MARK: - Declaration of Variables
     

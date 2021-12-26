@@ -793,7 +793,7 @@ extension CometChatSnackBoard {
      
      - Returns: An instance of generic view type `T`.
      */
-    public class func viewFromNib<T: UIView>(_ filesOwner: AnyObject = NSNull.init()) throws -> T {
+    open class func viewFromNib<T: UIView>(_ filesOwner: AnyObject = NSNull.init()) throws -> T {
         let name = T.description().components(separatedBy: ".").last
         assert(name != nil)
         let view: T = try internalViewFromNib(named: name!, bundle: nil, filesOwner: filesOwner)
@@ -812,7 +812,7 @@ extension CometChatSnackBoard {
      
      - Returns: An instance of generic view type `T`.
      */
-    public class func viewFromNib<T: UIView>(named name: String, filesOwner: AnyObject = NSNull.init()) throws -> T {
+    open class func viewFromNib<T: UIView>(named name: String, filesOwner: AnyObject = NSNull.init()) throws -> T {
         let view: T = try internalViewFromNib(named: name, bundle: nil, filesOwner: filesOwner)
         return view
     }
@@ -830,7 +830,7 @@ extension CometChatSnackBoard {
      
      - Returns: An instance of generic view type `T`.
      */
-    public class func viewFromNib<T: UIView>(named name: String, bundle: Bundle, filesOwner: AnyObject = NSNull.init()) throws -> T {
+    open class func viewFromNib<T: UIView>(named name: String, bundle: Bundle, filesOwner: AnyObject = NSNull.init()) throws -> T {
         let view: T = try internalViewFromNib(named: name, bundle: bundle, filesOwner: filesOwner)
         return view
     }

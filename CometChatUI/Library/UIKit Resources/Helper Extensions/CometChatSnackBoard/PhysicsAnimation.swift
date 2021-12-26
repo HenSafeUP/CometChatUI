@@ -8,7 +8,7 @@
 
 import UIKit
 
-public class PhysicsAnimation: NSObject, Animator {
+open class PhysicsAnimation: NSObject, Animator {
 
     public enum Placement {
         case top

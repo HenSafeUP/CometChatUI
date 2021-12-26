@@ -39,7 +39,7 @@ public protocol UserListDelegate: AnyObject {
 
 /*  ----------------------------------------------------------------------------------------- */
 
-public class CometChatUserList: UIViewController {
+open class CometChatUserList: UIViewController {
     
     
     // MARK: - Declaration of Variables

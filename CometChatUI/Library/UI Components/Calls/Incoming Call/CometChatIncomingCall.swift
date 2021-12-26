@@ -11,7 +11,7 @@ import CometChatPro
 
 /*  ----------------------------------------------------------------------------------------- */
 
-public class CometChatIncomingCall: UIViewController {
+open class CometChatIncomingCall: UIViewController {
     
      // MARK: - Declaration of Outlets
     

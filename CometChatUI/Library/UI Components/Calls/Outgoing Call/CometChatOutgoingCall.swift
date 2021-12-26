@@ -12,7 +12,7 @@ import  AVFoundation
 
 /*  ----------------------------------------------------------------------------------------- */
 
-@objc  public class CometChatOutgoingCall: UIViewController {
+@objc  open class CometChatOutgoingCall: UIViewController {
     
       // MARK: - Declaration of Outlets
     @IBOutlet weak var avatar: CometChatAvatar!

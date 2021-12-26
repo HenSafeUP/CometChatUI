@@ -33,7 +33,7 @@ public protocol GroupListDelegate: AnyObject {
 
 /*  ----------------------------------------------------------------------------------------- */
 
-public class CometChatGroupList: UIViewController {
+open class CometChatGroupList: UIViewController {
     
     // MARK: - Declaration of Variables
     var groupRequest = GroupsRequest.GroupsRequestBuilder(limit: 20).build()

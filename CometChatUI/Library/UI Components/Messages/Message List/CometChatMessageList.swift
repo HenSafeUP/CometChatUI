@@ -36,7 +36,7 @@ enum HideView {
 
 /*  ----------------------------------------------------------------------------------------- */
 
-public class CometChatMessageList: UIViewController, AVAudioRecorderDelegate, AVAudioPlayerDelegate, UIGestureRecognizerDelegate {
+open class CometChatMessageList: UIViewController, AVAudioRecorderDelegate, AVAudioPlayerDelegate, UIGestureRecognizerDelegate {
     
     struct MessageActionsGroup: RowPresentable {
         let string: String = "MessageActions Group"

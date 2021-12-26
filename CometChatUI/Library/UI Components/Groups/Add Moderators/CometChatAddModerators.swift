@@ -17,7 +17,7 @@ enum ModeratorMode {
 
 /*  ----------------------------------------------------------------------------------------- */
 
-public class CometChatAddModerators: UIViewController {
+open class CometChatAddModerators: UIViewController {
     
     // MARK: - Declaration of Variables
     

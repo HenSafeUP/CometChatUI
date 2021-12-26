@@ -33,7 +33,7 @@ public protocol NewCallListDelegate: AnyObject {
 
 /*  ----------------------------------------------------------------------------------------- */
 
-public class CometChatNewCallList: UIViewController {
+open class CometChatNewCallList: UIViewController {
     
     // MARK: - Declaration of Variables
     
