@@ -9,7 +9,7 @@
 Pod::Spec.new do |spec|
 
   spec.name         = "CometChatUI"
-  spec.version      = "0.0.5"
+  spec.version      = "0.0.6"
   spec.summary      = "CocoaPods Library for CometChatUI"
   spec.description  = "CocoaPods Library for CometChatUI"
   spec.homepage     = "https://github.com/HenSafeUP/CometChatUI"
