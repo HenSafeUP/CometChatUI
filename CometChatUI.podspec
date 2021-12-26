@@ -9,7 +9,7 @@
 Pod::Spec.new do |spec|
 
   spec.name         = "CometChatUI"
-  spec.version      = "0.0.8"
+  spec.version      = "0.0.9"
   spec.summary      = "CocoaPods Library for CometChatUI"
   spec.description  = "CocoaPods Library for CometChatUI"
   spec.homepage     = "https://github.com/HenSafeUP/CometChatUI"
@@ -20,7 +20,7 @@ Pod::Spec.new do |spec|
   spec.source       = { :git => "https://github.com/HenSafeUP/CometChatUI.git", :tag => "#{spec.version}" }
   spec.source_files  = "CometChatUI/**/*.{h,m,swift}"
   spec.resources = "CometChatUI/**/*.{png,jpeg,jpg,storyboard,xib,xcassets}"
-  spec.dependency 'CometChatPro', '3.0.5'
-  spec.dependency 'CometChatCalls', '2.1.1'
+  spec.dependency 'CometChatPro'
+  spec.dependency 'CometChatCalls'
 
 end

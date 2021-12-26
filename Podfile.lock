@@ -1,20 +1,20 @@
 PODS:
   - CometChatCalls (2.1.1)
-  - CometChatPro (3.0.5)
+  - CometChatPro (3.0.6)
 
 DEPENDENCIES:
-  - CometChatCalls (= 2.1.1)
-  - CometChatPro (= 3.0.5)
+  - CometChatCalls
+  - CometChatPro
 
 SPEC REPOS:
-  trunk:
+  https://github.com/CocoaPods/Specs.git:
     - CometChatCalls
     - CometChatPro
 
 SPEC CHECKSUMS:
   CometChatCalls: fc68f63e91b117ec5ef5f269dddbeac1ee7bf1a5
-  CometChatPro: 3a8480985c53bd69b2230b481ae77fab214e2f29
+  CometChatPro: f725215bb881167b711e442fc8701b30414391b7
 
-PODFILE CHECKSUM: 58c7a40394e5faa62e1a0c575ae3809847559251
+PODFILE CHECKSUM: cae4590b0b5fb2dc637b9afa6e978ee1b2ec9029
 
 COCOAPODS: 1.11.2
