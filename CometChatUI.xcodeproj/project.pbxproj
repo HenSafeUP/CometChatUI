@@ -847,7 +847,6 @@
 		5A281D2A27737C3A00ECF3CB /* CometChatUIExamplesUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A281D2927737C3A00ECF3CB /* CometChatUIExamplesUITests.swift */; };
 		5A281D2C27737C3A00ECF3CB /* CometChatUIExamplesUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A281D2B27737C3A00ECF3CB /* CometChatUIExamplesUITestsLaunchTests.swift */; };
 		5A281D392774911800ECF3CB /* SomeFileToTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A281D382774911800ECF3CB /* SomeFileToTest.swift */; };
-		66BFA87ECA888C245B9F2549 /* libPods-CometChatUI-CometChatUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C4A807EA4EF8F9CF3C06172C /* libPods-CometChatUI-CometChatUITests.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -1734,9 +1733,6 @@
 		5A281D2927737C3A00ECF3CB /* CometChatUIExamplesUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CometChatUIExamplesUITests.swift; sourceTree = "<group>"; };
 		5A281D2B27737C3A00ECF3CB /* CometChatUIExamplesUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CometChatUIExamplesUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		5A281D382774911800ECF3CB /* SomeFileToTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SomeFileToTest.swift; sourceTree = "<group>"; };
-		5FE2B878382053BC04AD7440 /* Pods-CometChatUI-CometChatUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CometChatUI-CometChatUITests.debug.xcconfig"; path = "Target Support Files/Pods-CometChatUI-CometChatUITests/Pods-CometChatUI-CometChatUITests.debug.xcconfig"; sourceTree = "<group>"; };
-		C4A807EA4EF8F9CF3C06172C /* libPods-CometChatUI-CometChatUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-CometChatUI-CometChatUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		D01F221E25AAB555E39CCE82 /* Pods-CometChatUI-CometChatUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CometChatUI-CometChatUITests.release.xcconfig"; path = "Target Support Files/Pods-CometChatUI-CometChatUITests/Pods-CometChatUI-CometChatUITests.release.xcconfig"; sourceTree = "<group>"; };
 		D52287FEB80F1758C5657B0C /* Pods-CometChatUI.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CometChatUI.release.xcconfig"; path = "Target Support Files/Pods-CometChatUI/Pods-CometChatUI.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -1754,7 +1750,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				5A2815EE2773793400ECF3CB /* CometChatUI.framework in Frameworks */,
-				66BFA87ECA888C245B9F2549 /* libPods-CometChatUI-CometChatUITests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1786,7 +1781,6 @@
 			isa = PBXGroup;
 			children = (
 				1CBA92AA60A527136CADC2BB /* libPods-CometChatUI.a */,
-				C4A807EA4EF8F9CF3C06172C /* libPods-CometChatUI-CometChatUITests.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -3760,8 +3754,6 @@
 			children = (
 				18A26D30F5CE492B450933E3 /* Pods-CometChatUI.debug.xcconfig */,
 				D52287FEB80F1758C5657B0C /* Pods-CometChatUI.release.xcconfig */,
-				5FE2B878382053BC04AD7440 /* Pods-CometChatUI-CometChatUITests.debug.xcconfig */,
-				D01F221E25AAB555E39CCE82 /* Pods-CometChatUI-CometChatUITests.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -3806,11 +3798,9 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 5A2815FA2773793400ECF3CB /* Build configuration list for PBXNativeTarget "CometChatUITests" */;
 			buildPhases = (
-				B4AC8511413AD0DD7F13CCA0 /* [CP] Check Pods Manifest.lock */,
 				5A2815E92773793400ECF3CB /* Sources */,
 				5A2815EA2773793400ECF3CB /* Frameworks */,
 				5A2815EB2773793400ECF3CB /* Resources */,
-				CA4150DF4DBA3E3C756AB7F9 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -4598,45 +4588,6 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		B4AC8511413AD0DD7F13CCA0 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-CometChatUI-CometChatUITests-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		CA4150DF4DBA3E3C756AB7F9 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-CometChatUI-CometChatUITests/Pods-CometChatUI-CometChatUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-CometChatUI-CometChatUITests/Pods-CometChatUI-CometChatUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-CometChatUI-CometChatUITests/Pods-CometChatUI-CometChatUITests-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -5158,7 +5109,6 @@
 		};
 		5A2815FB2773793400ECF3CB /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5FE2B878382053BC04AD7440 /* Pods-CometChatUI-CometChatUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -5180,7 +5130,6 @@
 		};
 		5A2815FC2773793400ECF3CB /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = D01F221E25AAB555E39CCE82 /* Pods-CometChatUI-CometChatUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
