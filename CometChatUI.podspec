@@ -18,6 +18,9 @@ Pod::Spec.new do |spec|
   spec.swift_version = "4.2"
   spec.author             = { "HenSafeUP" => "henl@safeup.co" }
   spec.source       = { :git => "https://github.com/HenSafeUP/CometChatUI.git", :tag => "#{spec.version}" }
-  spec.source_files  = "CometChatUI/**/*.{h,m}"
+  spec.source_files  = "CometChatUI/**/*.{h,m,swift}"
+  spec.resources = "CometChatUI/**/*.{png,jpeg,jpg,storyboard,xib,xcassets}"
+  spec.dependency 'CometChatPro', '3.0.5'
+  spec.dependency 'CometChatCalls', '2.1.1'
 
 end
