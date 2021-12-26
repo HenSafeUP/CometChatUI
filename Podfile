@@ -4,6 +4,6 @@ source 'https://github.com/cometchat-pro/ios-swift-chat-app.git'
 source 'https://github.com/CocoaPods/Specs.git'
 
 target 'CometChatUI' do
-  pod 'CometChatPro'
-  pod 'CometChatCalls'
+  pod 'CometChatPro', :modular_headers => true
+  pod 'CometChatCalls', :modular_headers => true
 end
