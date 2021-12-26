@@ -1,4 +1,4 @@
-platform :ios, '13.0'
+platform :ios, '11.0'
 
 source 'https://github.com/cometchat-pro/ios-swift-chat-app.git'
 source 'https://github.com/CocoaPods/Specs.git'

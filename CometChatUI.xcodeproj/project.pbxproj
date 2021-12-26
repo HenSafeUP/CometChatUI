@@ -9,8 +9,6 @@
 /* Begin PBXBuildFile section */
 		59F8D5D83778A841DF6AB7C4 /* libPods-CometChatUI.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1CBA92AA60A527136CADC2BB /* libPods-CometChatUI.a */; };
 		5A2815E82773793400ECF3CB /* CometChatUI.docc in Sources */ = {isa = PBXBuildFile; fileRef = 5A2815E72773793400ECF3CB /* CometChatUI.docc */; };
-		5A2815EE2773793400ECF3CB /* CometChatUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A2815E32773793400ECF3CB /* CometChatUI.framework */; };
-		5A2815F32773793400ECF3CB /* CometChatUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A2815F22773793400ECF3CB /* CometChatUITests.swift */; };
 		5A2815F42773793400ECF3CB /* CometChatUI.h in Headers */ = {isa = PBXBuildFile; fileRef = 5A2815E62773793400ECF3CB /* CometChatUI.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		5A2819C9277379E500ECF3CB /* CometChatCallDetailsLogItem.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5A281601277379E400ECF3CB /* CometChatCallDetailsLogItem.xib */; };
 		5A2819CA277379E500ECF3CB /* CometChatCallDetailsLogItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A281602277379E400ECF3CB /* CometChatCallDetailsLogItem.swift */; };
@@ -843,35 +841,8 @@
 		5A281D1027737C3900ECF3CB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5A281D0E27737C3900ECF3CB /* Main.storyboard */; };
 		5A281D1227737C3A00ECF3CB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5A281D1127737C3A00ECF3CB /* Assets.xcassets */; };
 		5A281D1527737C3A00ECF3CB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5A281D1327737C3A00ECF3CB /* LaunchScreen.storyboard */; };
-		5A281D2027737C3A00ECF3CB /* CometChatUIExamplesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A281D1F27737C3A00ECF3CB /* CometChatUIExamplesTests.swift */; };
-		5A281D2A27737C3A00ECF3CB /* CometChatUIExamplesUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A281D2927737C3A00ECF3CB /* CometChatUIExamplesUITests.swift */; };
-		5A281D2C27737C3A00ECF3CB /* CometChatUIExamplesUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A281D2B27737C3A00ECF3CB /* CometChatUIExamplesUITestsLaunchTests.swift */; };
 		5A281D392774911800ECF3CB /* SomeFileToTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A281D382774911800ECF3CB /* SomeFileToTest.swift */; };
 /* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		5A2815EF2773793400ECF3CB /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 5A2815DA2773793400ECF3CB /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 5A2815E22773793400ECF3CB;
-			remoteInfo = CometChatUI;
-		};
-		5A281D1C27737C3A00ECF3CB /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 5A2815DA2773793400ECF3CB /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 5A281D0527737C3900ECF3CB;
-			remoteInfo = CometChatUIExamples;
-		};
-		5A281D2627737C3A00ECF3CB /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 5A2815DA2773793400ECF3CB /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 5A281D0527737C3900ECF3CB;
-			remoteInfo = CometChatUIExamples;
-		};
-/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		18A26D30F5CE492B450933E3 /* Pods-CometChatUI.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CometChatUI.debug.xcconfig"; path = "Target Support Files/Pods-CometChatUI/Pods-CometChatUI.debug.xcconfig"; sourceTree = "<group>"; };
@@ -879,8 +850,6 @@
 		5A2815E32773793400ECF3CB /* CometChatUI.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CometChatUI.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5A2815E62773793400ECF3CB /* CometChatUI.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CometChatUI.h; sourceTree = "<group>"; };
 		5A2815E72773793400ECF3CB /* CometChatUI.docc */ = {isa = PBXFileReference; lastKnownFileType = folder.documentationcatalog; path = CometChatUI.docc; sourceTree = "<group>"; };
-		5A2815ED2773793400ECF3CB /* CometChatUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CometChatUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		5A2815F22773793400ECF3CB /* CometChatUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CometChatUITests.swift; sourceTree = "<group>"; };
 		5A281601277379E400ECF3CB /* CometChatCallDetailsLogItem.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CometChatCallDetailsLogItem.xib; sourceTree = "<group>"; };
 		5A281602277379E400ECF3CB /* CometChatCallDetailsLogItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CometChatCallDetailsLogItem.swift; sourceTree = "<group>"; };
 		5A281604277379E400ECF3CB /* CometChatCallListItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CometChatCallListItem.swift; sourceTree = "<group>"; };
@@ -1727,11 +1696,6 @@
 		5A281D1127737C3A00ECF3CB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5A281D1427737C3A00ECF3CB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5A281D1627737C3A00ECF3CB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		5A281D1B27737C3A00ECF3CB /* CometChatUIExamplesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CometChatUIExamplesTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		5A281D1F27737C3A00ECF3CB /* CometChatUIExamplesTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CometChatUIExamplesTests.swift; sourceTree = "<group>"; };
-		5A281D2527737C3A00ECF3CB /* CometChatUIExamplesUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CometChatUIExamplesUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		5A281D2927737C3A00ECF3CB /* CometChatUIExamplesUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CometChatUIExamplesUITests.swift; sourceTree = "<group>"; };
-		5A281D2B27737C3A00ECF3CB /* CometChatUIExamplesUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CometChatUIExamplesUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		5A281D382774911800ECF3CB /* SomeFileToTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SomeFileToTest.swift; sourceTree = "<group>"; };
 		D52287FEB80F1758C5657B0C /* Pods-CometChatUI.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CometChatUI.release.xcconfig"; path = "Target Support Files/Pods-CometChatUI/Pods-CometChatUI.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -1745,29 +1709,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		5A2815EA2773793400ECF3CB /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				5A2815EE2773793400ECF3CB /* CometChatUI.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		5A281D0327737C3900ECF3CB /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		5A281D1827737C3A00ECF3CB /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		5A281D2227737C3A00ECF3CB /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -1789,10 +1731,7 @@
 			isa = PBXGroup;
 			children = (
 				5A2815E52773793400ECF3CB /* CometChatUI */,
-				5A2815F12773793400ECF3CB /* CometChatUITests */,
 				5A281D0727737C3900ECF3CB /* CometChatUIExamples */,
-				5A281D1E27737C3A00ECF3CB /* CometChatUIExamplesTests */,
-				5A281D2827737C3A00ECF3CB /* CometChatUIExamplesUITests */,
 				5A2815E42773793400ECF3CB /* Products */,
 				EDBB6BC4D803EC326BDDB4E2 /* Pods */,
 				49640759CE4F3D34BDCD617A /* Frameworks */,
@@ -1803,10 +1742,7 @@
 			isa = PBXGroup;
 			children = (
 				5A2815E32773793400ECF3CB /* CometChatUI.framework */,
-				5A2815ED2773793400ECF3CB /* CometChatUITests.xctest */,
 				5A281D0627737C3900ECF3CB /* CometChatUIExamples.app */,
-				5A281D1B27737C3A00ECF3CB /* CometChatUIExamplesTests.xctest */,
-				5A281D2527737C3A00ECF3CB /* CometChatUIExamplesUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -1820,14 +1756,6 @@
 				5A281D382774911800ECF3CB /* SomeFileToTest.swift */,
 			);
 			path = CometChatUI;
-			sourceTree = "<group>";
-		};
-		5A2815F12773793400ECF3CB /* CometChatUITests */ = {
-			isa = PBXGroup;
-			children = (
-				5A2815F22773793400ECF3CB /* CometChatUITests.swift */,
-			);
-			path = CometChatUITests;
 			sourceTree = "<group>";
 		};
 		5A2815FD277379E400ECF3CB /* Library */ = {
@@ -3732,23 +3660,6 @@
 			path = CometChatUIExamples;
 			sourceTree = "<group>";
 		};
-		5A281D1E27737C3A00ECF3CB /* CometChatUIExamplesTests */ = {
-			isa = PBXGroup;
-			children = (
-				5A281D1F27737C3A00ECF3CB /* CometChatUIExamplesTests.swift */,
-			);
-			path = CometChatUIExamplesTests;
-			sourceTree = "<group>";
-		};
-		5A281D2827737C3A00ECF3CB /* CometChatUIExamplesUITests */ = {
-			isa = PBXGroup;
-			children = (
-				5A281D2927737C3A00ECF3CB /* CometChatUIExamplesUITests.swift */,
-				5A281D2B27737C3A00ECF3CB /* CometChatUIExamplesUITestsLaunchTests.swift */,
-			);
-			path = CometChatUIExamplesUITests;
-			sourceTree = "<group>";
-		};
 		EDBB6BC4D803EC326BDDB4E2 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
@@ -3794,24 +3705,6 @@
 			productReference = 5A2815E32773793400ECF3CB /* CometChatUI.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		5A2815EC2773793400ECF3CB /* CometChatUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 5A2815FA2773793400ECF3CB /* Build configuration list for PBXNativeTarget "CometChatUITests" */;
-			buildPhases = (
-				5A2815E92773793400ECF3CB /* Sources */,
-				5A2815EA2773793400ECF3CB /* Frameworks */,
-				5A2815EB2773793400ECF3CB /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				5A2815F02773793400ECF3CB /* PBXTargetDependency */,
-			);
-			name = CometChatUITests;
-			productName = CometChatUITests;
-			productReference = 5A2815ED2773793400ECF3CB /* CometChatUITests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
 		5A281D0527737C3900ECF3CB /* CometChatUIExamples */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 5A281D3327737C3A00ECF3CB /* Build configuration list for PBXNativeTarget "CometChatUIExamples" */;
@@ -3829,42 +3722,6 @@
 			productReference = 5A281D0627737C3900ECF3CB /* CometChatUIExamples.app */;
 			productType = "com.apple.product-type.application";
 		};
-		5A281D1A27737C3A00ECF3CB /* CometChatUIExamplesTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 5A281D3427737C3A00ECF3CB /* Build configuration list for PBXNativeTarget "CometChatUIExamplesTests" */;
-			buildPhases = (
-				5A281D1727737C3A00ECF3CB /* Sources */,
-				5A281D1827737C3A00ECF3CB /* Frameworks */,
-				5A281D1927737C3A00ECF3CB /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				5A281D1D27737C3A00ECF3CB /* PBXTargetDependency */,
-			);
-			name = CometChatUIExamplesTests;
-			productName = CometChatUIExamplesTests;
-			productReference = 5A281D1B27737C3A00ECF3CB /* CometChatUIExamplesTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
-		5A281D2427737C3A00ECF3CB /* CometChatUIExamplesUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 5A281D3527737C3A00ECF3CB /* Build configuration list for PBXNativeTarget "CometChatUIExamplesUITests" */;
-			buildPhases = (
-				5A281D2127737C3A00ECF3CB /* Sources */,
-				5A281D2227737C3A00ECF3CB /* Frameworks */,
-				5A281D2327737C3A00ECF3CB /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				5A281D2727737C3A00ECF3CB /* PBXTargetDependency */,
-			);
-			name = CometChatUIExamplesUITests;
-			productName = CometChatUIExamplesUITests;
-			productReference = 5A281D2527737C3A00ECF3CB /* CometChatUIExamplesUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -3878,19 +3735,8 @@
 					5A2815E22773793400ECF3CB = {
 						CreatedOnToolsVersion = 13.1;
 					};
-					5A2815EC2773793400ECF3CB = {
-						CreatedOnToolsVersion = 13.1;
-					};
 					5A281D0527737C3900ECF3CB = {
 						CreatedOnToolsVersion = 13.1;
-					};
-					5A281D1A27737C3A00ECF3CB = {
-						CreatedOnToolsVersion = 13.1;
-						TestTargetID = 5A281D0527737C3900ECF3CB;
-					};
-					5A281D2427737C3A00ECF3CB = {
-						CreatedOnToolsVersion = 13.1;
-						TestTargetID = 5A281D0527737C3900ECF3CB;
 					};
 				};
 			};
@@ -3921,10 +3767,7 @@
 			projectRoot = "";
 			targets = (
 				5A2815E22773793400ECF3CB /* CometChatUI */,
-				5A2815EC2773793400ECF3CB /* CometChatUITests */,
 				5A281D0527737C3900ECF3CB /* CometChatUIExamples */,
-				5A281D1A27737C3A00ECF3CB /* CometChatUIExamplesTests */,
-				5A281D2427737C3A00ECF3CB /* CometChatUIExamplesUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -4532,13 +4375,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		5A2815EB2773793400ECF3CB /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		5A281D0427737C3900ECF3CB /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -4546,20 +4382,6 @@
 				5A281D1527737C3A00ECF3CB /* LaunchScreen.storyboard in Resources */,
 				5A281D1227737C3A00ECF3CB /* Assets.xcassets in Resources */,
 				5A281D1027737C3900ECF3CB /* Main.storyboard in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		5A281D1927737C3A00ECF3CB /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		5A281D2327737C3A00ECF3CB /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -4827,14 +4649,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		5A2815E92773793400ECF3CB /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				5A2815F32773793400ECF3CB /* CometChatUITests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		5A281D0227737C3900ECF3CB /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -4845,42 +4659,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		5A281D1727737C3A00ECF3CB /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				5A281D2027737C3A00ECF3CB /* CometChatUIExamplesTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		5A281D2127737C3A00ECF3CB /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				5A281D2C27737C3A00ECF3CB /* CometChatUIExamplesUITestsLaunchTests.swift in Sources */,
-				5A281D2A27737C3A00ECF3CB /* CometChatUIExamplesUITests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		5A2815F02773793400ECF3CB /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 5A2815E22773793400ECF3CB /* CometChatUI */;
-			targetProxy = 5A2815EF2773793400ECF3CB /* PBXContainerItemProxy */;
-		};
-		5A281D1D27737C3A00ECF3CB /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 5A281D0527737C3900ECF3CB /* CometChatUIExamples */;
-			targetProxy = 5A281D1C27737C3A00ECF3CB /* PBXContainerItemProxy */;
-		};
-		5A281D2727737C3A00ECF3CB /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 5A281D0527737C3900ECF3CB /* CometChatUIExamples */;
-			targetProxy = 5A281D2627737C3A00ECF3CB /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		5A281781277379E500ECF3CB /* Localizable.strings */ = {
@@ -5107,48 +4886,6 @@
 			};
 			name = Release;
 		};
-		5A2815FB2773793400ECF3CB /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				GENERATE_INFOPLIST_FILE = YES;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.talzohar.safeup.cometchatui.CometChatUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Debug;
-		};
-		5A2815FC2773793400ECF3CB /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				GENERATE_INFOPLIST_FILE = YES;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.talzohar.safeup.cometchatui.CometChatUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Release;
-		};
 		5A281D2D27737C3A00ECF3CB /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -5203,98 +4940,6 @@
 			};
 			name = Release;
 		};
-		5A281D2F27737C3A00ECF3CB /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.talzohar.safeup.cometchatui.CometChatUIExamplesTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CometChatUIExamples.app/CometChatUIExamples";
-			};
-			name = Debug;
-		};
-		5A281D3027737C3A00ECF3CB /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.talzohar.safeup.cometchatui.CometChatUIExamplesTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CometChatUIExamples.app/CometChatUIExamples";
-			};
-			name = Release;
-		};
-		5A281D3127737C3A00ECF3CB /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				GENERATE_INFOPLIST_FILE = YES;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.talzohar.safeup.cometchatui.CometChatUIExamplesUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = CometChatUIExamples;
-			};
-			name = Debug;
-		};
-		5A281D3227737C3A00ECF3CB /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				GENERATE_INFOPLIST_FILE = YES;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.talzohar.safeup.cometchatui.CometChatUIExamplesUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = CometChatUIExamples;
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -5316,38 +4961,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		5A2815FA2773793400ECF3CB /* Build configuration list for PBXNativeTarget "CometChatUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				5A2815FB2773793400ECF3CB /* Debug */,
-				5A2815FC2773793400ECF3CB /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		5A281D3327737C3A00ECF3CB /* Build configuration list for PBXNativeTarget "CometChatUIExamples" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				5A281D2D27737C3A00ECF3CB /* Debug */,
 				5A281D2E27737C3A00ECF3CB /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		5A281D3427737C3A00ECF3CB /* Build configuration list for PBXNativeTarget "CometChatUIExamplesTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				5A281D2F27737C3A00ECF3CB /* Debug */,
-				5A281D3027737C3A00ECF3CB /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		5A281D3527737C3A00ECF3CB /* Build configuration list for PBXNativeTarget "CometChatUIExamplesUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				5A281D3127737C3A00ECF3CB /* Debug */,
-				5A281D3227737C3A00ECF3CB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
